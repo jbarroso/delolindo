@@ -1,0 +1,89 @@
+/* Add here all your CSS customizations */
+
+#header {
+    background: linear-gradient(#fde908, #fde908);
+}
+#header .logo {
+    visibility: hidden;
+}
+.section.section {
+    padding-top: 5px;
+}
+#intro {
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+    background: linear-gradient(#fde908, #fba129);
+}
+#header .logo-sticky-active {
+    float: left;
+    display: block;
+    margin-top: 20px;
+    visibility: visible !important;
+}
+#home h2 {
+    margin-top: 20px;
+}
+#header {
+    border-top: 0px;
+}
+body.sticky-menu-active #header {
+    border-bottom: 0px solid #E9E9E9;
+}
+#interlude {
+    background: white;
+}
+.slider-container .top-label {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+.slider a.main-button {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 30px;
+    border-color: #FFFFFF;
+    padding: 25px;
+}
+.slider a.main-button:hover {
+    border-color: #FFFFFF;
+}
+
+@media (max-width: 991px) {
+    #header > .container {
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+}
+@media (min-width: 991px) {
+    body.sticky-menu-active #header.single-menu .logo,
+    body.sticky-menu-active #header.single-menu.valign .logo {
+        float: left;
+    }
+    .btn-responsive-nav {
+        top: 5px;
+    }
+}
+@media (max-width: 991px) {
+    /* Responsive Button Nav */
+    .btn-responsive-nav {
+        top: 5px;
+    }
+    #header.single-menu {
+        min-height: 86px;
+    }
+    body.sticky-menu-active .btn-responsive-nav {
+        top: 60px;
+    }
+    body.sticky-menu-deactive #header > .container {
+        height: auto !important;
+        margin-bottom: 45px !important;
+    }
+    body.sticky-menu-deactive #header > .container > .logo {
+        display: none !important;
+    }
+}
+@media (max-height: 500px) {
+    #intro {
+        padding: 0px 0px 0px 0px;
+    }
+}
