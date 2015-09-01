@@ -28,7 +28,7 @@ module.exports = function(grunt) {
                     dest: 'dist/fonts'
                 }, {
                     expand: true,
-                    src: './vendor/**',
+                    src: './vendor/rs-plugin/**',
                     dest: 'dist/'
                 }, ]
             }
