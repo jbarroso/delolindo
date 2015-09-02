@@ -30,7 +30,10 @@ module.exports = function(grunt) {
                     expand: true,
                     src: './vendor/rs-plugin/**',
                     dest: 'dist/'
-                }, ]
+                }, {
+                    src: './CNAME',
+                    dest: 'dist/CNAME'
+                }]
             }
 
 
