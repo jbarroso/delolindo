@@ -33,6 +33,9 @@ module.exports = function(grunt) {
                 }, {
                     src: './CNAME',
                     dest: 'dist/CNAME'
+                },{
+                    src: './google3347653a9c399d60.html',
+                    dest: 'dist/google3347653a9c399d60.html'
                 }, {
                     expand: true,
                     src: './privacy-policies/**',
