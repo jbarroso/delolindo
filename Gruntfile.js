@@ -33,6 +33,10 @@ module.exports = function(grunt) {
                 }, {
                     src: './CNAME',
                     dest: 'dist/CNAME'
+                }, {
+                    expand: true,
+                    src: './privacy-policies/**',
+                    dest: 'dist/'
                 }]
             }
 
